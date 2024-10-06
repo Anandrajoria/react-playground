@@ -12,7 +12,7 @@ export const BlogCard=({
     <div>
         <div className="container">
         <div className="box">
-            <img className="image" src={imgSrc} alt="image"/>
+            <img className="image" src={imgSrc} alt="blogcard"/>
             <div className="heading">
                 <h1>{title}</h1>
                 <p>{description}</p>
