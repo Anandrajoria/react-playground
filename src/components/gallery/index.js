@@ -1,0 +1,1 @@
+export {default as Galllery } from './gallery'
