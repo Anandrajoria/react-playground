@@ -1,0 +1,33 @@
+.courousel-main{
+    margin: 0;
+    background: #343435;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.coursel{
+    overflow: hidden;
+    width: 600px;
+    display: flex;
+}
+.coursel-card{
+    min-width: 200px;
+    height: 200px;
+    margin-right: 10px; 
+    animation: slide 15s linear infinite;
+}
+.coursel-card img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+@keyframes slide {
+    to{
+        translate: calc(-4 * 250px);
+    }
+}
+
