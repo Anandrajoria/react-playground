@@ -1,0 +1,55 @@
+.currency-Converter-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: url('../../../public/2.jpg') #030728 no-repeat center;
+}
+#root{
+    width: 100%;
+}
+.currency-Converter{
+    margin: 0 auto;
+    padding: 20px 30px 50px;
+    border-radius: 8px;
+    backdrop-filter: blur(30px);
+    max-width: 410px;
+    background: rgba(2,7,40,0.5);
+    border: 1px solid rgba(255,255,255,0.3);
+}
+.currency-Converter .currency-title{
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-align: center;
+
+}
+.currency-Converter .converter-form{
+    margin-top: 45px;
+}
+
+.currency-Converter .form-group{
+    display: flex;
+    margin-bottom: 30px;
+    flex-direction: column;
+}
+.currency-Converter .form-group .from-lebel{
+    color: #fff;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 9px;
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+
+.currency-Converter .form-group .form-input{
+    min-height: 48px;
+    outline: none;
+    font-size: 1.1rem;
+    padding: 0 5px;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 6px;
+    background: rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.5);
+}
